@@ -1,6 +1,0 @@
-C:\Users\Jesse Michael\Documents\Visual Studio 2010\Projects\Wuddo\Wuddo\Wuddo\bin\x86\Debug\Wuddo.exe
-C:\Users\Jesse Michael\Documents\Visual Studio 2010\Projects\Wuddo\Wuddo\Wuddo\bin\x86\Debug\Wuddo.pdb
-C:\Users\Jesse Michael\Documents\Visual Studio 2010\Projects\Wuddo\Wuddo\Wuddo\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Jesse Michael\Documents\Visual Studio 2010\Projects\Wuddo\Wuddo\Wuddo\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\Jesse Michael\Documents\Visual Studio 2010\Projects\Wuddo\Wuddo\Wuddo\obj\x86\Debug\Wuddo.exe
-C:\Users\Jesse Michael\Documents\Visual Studio 2010\Projects\Wuddo\Wuddo\Wuddo\obj\x86\Debug\Wuddo.pdb
