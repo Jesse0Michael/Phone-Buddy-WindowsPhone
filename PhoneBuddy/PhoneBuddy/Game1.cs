@@ -221,6 +221,7 @@ namespace PhoneBuddy
                         actionSlider.slideLeft = true;
                         dog.returnHome = true;
                         dog.myActivity = Dog.activity.dogTug;
+                        dog.tug.restart();
 
                     }
                     if (actionSlider.recFood.Contains((int)mouse.position.X, (int)mouse.position.Y))

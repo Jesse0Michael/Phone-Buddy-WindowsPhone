@@ -27,7 +27,7 @@
         <TemplateType5>
           <BackgroundImageURI IsRelative="true" IsResource="false">Background.png</BackgroundImageURI>
           <Count>0</Count>
-          <Title>PhoneBuddy</Title>
+          <Title>Phone Buddy</Title>
         </TemplateType5>
       </PrimaryToken>
     </Tokens>

@@ -52,8 +52,8 @@ namespace PhoneBuddy
         public void restart()
         {
             foodPos = new Vector2((int)((float)screenWidth * .81), (int)((float)screenHeight * .77));
-            eatingPos = new Vector2((int)((float)screenWidth * .77), (int)((float)screenHeight * .70));
-            foodPosZ = 0.4f;
+            eatingPos = new Vector2((int)((float)screenWidth * .78), (int)((float)screenHeight * .69));
+            foodPosZ = 0.6f;
             foodScale = 1.0f;
             foodRot = 0.0f;
 
@@ -78,7 +78,6 @@ namespace PhoneBuddy
         {
             if (atFood == false)
             {
-                //Console.WriteLine(dog.statHunger);
                 if (dog.statHunger <= 0.9f)
                 {
 

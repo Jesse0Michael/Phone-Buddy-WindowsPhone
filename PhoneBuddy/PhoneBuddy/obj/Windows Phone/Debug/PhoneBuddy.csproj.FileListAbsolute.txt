@@ -1,4 +1,4 @@
-C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\phone buddy.xnb
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\actFetch.xnb
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\actFood.xnb
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\actPoo.xnb
@@ -18,8 +18,16 @@ C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phon
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\pooBag.xnb
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\slider.xnb
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\sliderPull.xnb
+C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\dogSheet.xnb
+C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\testr.xnb
+C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\rope.xnb
+C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\rope60.xnb
+C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\barPhone.xnb
+C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\tugBar.xnb
+C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\SpriteFont.xnb
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\PhoneBuddy.dll
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\PhoneBuddy.pdb
+C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\PhoneBuddy.dll
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\PhoneBuddy.pdb
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\AppManifest.xaml
@@ -28,6 +36,9 @@ C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phon
 bin\Windows Phone\Debug\
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\PhoneBuddy.xap
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\XapCacheFile.xml
-C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\PhoneBuddy.csprojResolveAssemblyReference.cache
-C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\phone buddy.xnb
-C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\dogSheet.xnb
+C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\PhoneBuddy.xap
+C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\

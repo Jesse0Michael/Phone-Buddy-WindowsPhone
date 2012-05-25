@@ -55,9 +55,9 @@ namespace PhoneBuddy
         {
 
             waterPos = new Vector2((int)((float)screenWidth * .14), (int)((float)screenHeight * .77));
-            drinkingPos = new Vector2((int)((float)screenWidth * .29), (int)((float)screenHeight * .70));
+            drinkingPos = new Vector2((int)((float)screenWidth * .28), (int)((float)screenHeight * .68));
             
-            waterPosZ = 0.4f;
+            waterPosZ = 0.6f;
             waterScale = 1.0f;
             waterRot = 0.0f;
 

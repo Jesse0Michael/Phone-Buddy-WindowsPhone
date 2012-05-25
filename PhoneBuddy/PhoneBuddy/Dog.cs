@@ -70,7 +70,10 @@ namespace PhoneBuddy
             dogRunRight,      //3
             dogRunLeft,       //4
             dogEatRight,      //5
-            dogEatLeft        //6
+            dogEatLeft,       //6
+            dogTug,           //7
+            dogTugRight,      //8
+            dogTugLeft        //9
 
         };
 
@@ -80,6 +83,7 @@ namespace PhoneBuddy
         public int FPS;
         public int aniX;
         public int aniY;
+        public bool tugBool;
 
         public Dog(mouseHelp mouse)
         {
@@ -104,6 +108,7 @@ namespace PhoneBuddy
             myFPS = 0;
             FPS = 12;
             returnHome = false;
+            tugBool = false;
 
             dogX = (int)((float)screenWidth * .51);
             dogY = (int)((float)screenHeight * .54);
@@ -113,7 +118,7 @@ namespace PhoneBuddy
             dogRot = 0.0f;
             origin = new Vector2(dogX, dogY);
             dogPos = new Vector2(dogX, dogY);
-            returnSpeedX = 1;
+            returnSpeedX = 2;
             returnSpeedY = 1;
             returnSpeedS = .005f;
             
@@ -205,69 +210,76 @@ namespace PhoneBuddy
 
         public void Draw(SpriteBatch spriteBatch)
         {
+            if (tugBool == true)
+            {
+                returnSpeedS = .1f;
+            }
+            else
+            {
+                returnSpeedS = .005f;
+            }
             // This will have the dog return to the start position if called.
             if (returnHome == true)
             {
                 if (dogPos.X != origin.X || dogPos.Y != origin.Y || dogScale != 1.0)
                 {
-                    //Console.WriteLine(dogPos.X + "   " + origin.X);
                     if (dogPos.X <= origin.X + returnSpeedX && dogPos.X >= origin.X - returnSpeedX)
                     {
                         dogPos.X = origin.X;
-                        //sitting ani
                         myAnimate = Dog.animate.dogSitting;
                     }
                     else if (dogPos.X >= origin.X)
                     {
                         dogPos.X -= returnSpeedX;
-                        //running left ani
                         myAnimate = Dog.animate.dogRunLeft;
                     }
                     else if (dogPos.X <= origin.X)
                     {
                         dogPos.X += returnSpeedX;
-                        //running right ani
                         myAnimate = Dog.animate.dogRunRight;
                     }
 
                     if (dogPos.Y <= origin.Y + returnSpeedY && dogPos.Y >= origin.Y - returnSpeedY)
                     {
                         dogPos.Y = origin.Y;
-                        //sitting ani
+
                     }
                     else if (dogPos.Y >= origin.Y)
                     {
                         dogPos.Y -= returnSpeedY;
+                        myAnimate = Dog.animate.dogRunAway;
                         
-                        //running left ani
                     }
                     else if (dogPos.Y <= origin.Y)
                     {
                         dogPos.Y += returnSpeedY;
                         myAnimate = Dog.animate.dogRunTowards;
-                        //running right ani
+                        
                     }
+
+                    
 
                     if (dogScale <= 1.0f + returnSpeedS && dogScale >= 1.0f - returnSpeedS)
                     {
                         dogScale = 1.0f;
-                        //sitting ani
+                        
                     }
                     else if (dogScale >= 1.0f)
                     {
                         dogScale -= returnSpeedS;
-                        //running left ani
+                        
                     }
                     else if (dogScale <= 1.0f)
                     {
                         dogScale += returnSpeedS;
-                        //running right ani
+                        
                     }
 
                 }
                 else
                 {
                     returnHome = false;
+                    tugBool = false;
                 }
             }
             else
@@ -332,8 +344,23 @@ namespace PhoneBuddy
                     break;
 
                 case Dog.animate.dogEatLeft:
-                    aniY = 800;
-                    spriteBatch.Draw(dogContainer, dogPos, dogRec, Color.White, dogRot, new Vector2(100, 100), dogScale, SpriteEffects.FlipHorizontally, dogZ);
+                    aniY = 1000;
+                    spriteBatch.Draw(dogContainer, dogPos, dogRec, Color.White, dogRot, new Vector2(100, 100), dogScale, SpriteEffects.None, dogZ);
+                    break;
+
+                case Dog.animate.dogTug:
+                    aniY = 1200;
+                    spriteBatch.Draw(dogContainer, dogPos, dogRec, Color.White, dogRot, new Vector2(100, 100), dogScale, SpriteEffects.None, dogZ);
+                    break;
+
+                case Dog.animate.dogTugRight:
+                    aniY = 1400;
+                    spriteBatch.Draw(dogContainer, dogPos, dogRec, Color.White, dogRot, new Vector2(100, 100), dogScale, SpriteEffects.None, dogZ);
+                    break;
+
+                case Dog.animate.dogTugLeft:
+                    aniY = 1600;
+                    spriteBatch.Draw(dogContainer, dogPos, dogRec, Color.White, dogRot, new Vector2(100, 100), dogScale, SpriteEffects.None, dogZ);
                     break;
             }
         }

@@ -2,6 +2,15 @@
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
     <Item>
+      <Source>Textures\phone buddy.png</Source>
+      <Name>Textures\phone buddy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\phone buddy.xnb</Output>
+      <Time>2012-05-07T16:57:18.1505223-07:00</Time>
+    </Item>
+    <Item>
       <Source>Textures\actFetch.png</Source>
       <Name>Textures\actFetch</Name>
       <Importer>TextureImporter</Importer>
@@ -173,22 +182,67 @@
       <Time>2012-04-29T20:47:01.5364254-07:00</Time>
     </Item>
     <Item>
-      <Source>Textures\phone buddy.png</Source>
-      <Name>Textures\phone buddy</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\phone buddy.xnb</Output>
-      <Time>2012-05-07T16:57:18.1505223-07:00</Time>
-    </Item>
-    <Item>
       <Source>Textures\dogSheet.png</Source>
       <Name>Textures\dogSheet</Name>
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\dogSheet.xnb</Output>
-      <Time>2012-05-09T17:16:44.0663416-07:00</Time>
+      <Time>2012-05-22T15:06:51.4231792-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\testr.png</Source>
+      <Name>Textures\testr</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\testr.xnb</Output>
+      <Time>2012-05-18T12:14:01.4147902-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\rope.png</Source>
+      <Name>Textures\rope</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\rope.xnb</Output>
+      <Time>2012-05-18T15:58:41.9501627-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\rope60.png</Source>
+      <Name>Textures\rope60</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\rope60.xnb</Output>
+      <Time>2012-05-18T15:58:44.0422824-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\barPhone.png</Source>
+      <Name>Textures\barPhone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\barPhone.xnb</Output>
+      <Time>2012-05-19T13:52:39.9706938-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\tugBar.png</Source>
+      <Name>Textures\tugBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\Textures\tugBar.xnb</Output>
+      <Time>2012-05-19T16:33:08.1187607-07:00</Time>
+    </Item>
+    <Item>
+      <Source>SpriteFont.spritefont</Source>
+      <Name>SpriteFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\Content\SpriteFont.xnb</Output>
+      <Time>2012-05-19T13:20:29.7112893-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

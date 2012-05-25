@@ -245,7 +245,6 @@ namespace PhoneBuddy
 
                 if ((Math.Abs(Math.Sin(bounceSpeed))) <= .01f)
                 {
-                    //Console.WriteLine(bounceCount);
                     // bouncing may still need some work Jesse
                     Magnitude /= 2.0f;
                     bounceCount++;
@@ -430,7 +429,7 @@ namespace PhoneBuddy
                 else if (dog.dogScale <= 1.0f)
                 {
                     dog.dogScale += (dog.returnSpeedS / sFactor);
-                    ballScale += (dog.returnSpeedS / sFactor);
+                    ballScale += (dog.returnSpeedS / (sFactor * 2));
                 }
 
             }
