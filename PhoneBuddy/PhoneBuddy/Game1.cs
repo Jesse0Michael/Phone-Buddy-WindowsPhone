@@ -128,8 +128,11 @@ namespace PhoneBuddy
 
         protected override void Update(GameTime gameTime)
         {
-            if (Keyboard.GetState().IsKeyDown(Keys.Escape))
+            if (Keyboard.GetState().IsKeyDown(Keys.Escape) || (GamePad.GetState(Microsoft.Xna.Framework.PlayerIndex.One).Buttons.Back == ButtonState.Pressed)
+)
+            {
                 this.Exit();
+            }
             if (splashBool == true)
             {
                 splashTime -= gameTime.ElapsedGameTime;

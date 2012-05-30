@@ -1,11 +1,1 @@
-Hello! In case you were wondering why the project's name is Wuddo, it's because my fiance's nickname for her adorable dog is Buddo Wuddo. It stuck with me.
-
-
-As of now, there is very limited functionality. Items on the to be implemented list are:
-Create new dog image and animations for every possible activity.
-Implement Tug-of-War mini-game.
-Record sounds to put in the game.
-Re-implement some elements so that the game will also work on Windows Phone 7.
-
-
-Thanks You!
+Interact with your own windows phone dog through many different activities. You can play fetch with your dog by throughing a ball for him to chase. You can play tug of war with your dog by pulling on your end of a rope. You can give your dog food and water. And you can clean up after him when he poops!
