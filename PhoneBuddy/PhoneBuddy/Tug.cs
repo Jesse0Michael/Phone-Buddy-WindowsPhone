@@ -16,6 +16,7 @@ namespace PhoneBuddy
     {
         private Dog dog;
         private mouseHelp mouse;
+        private AppDJ appDJ;
 
         private Texture2D ropetex;
         private Rectangle ropeRec;
@@ -62,14 +63,16 @@ namespace PhoneBuddy
 
         private Texture2D barFace;
         private Rectangle faceRec;
-        private Vector2 facePos;
+
+        public Vector2 oldMouse;
 
         private static Random rand;
 
-        public Tug(Dog dog, mouseHelp mouse)
+        public Tug(Dog dog, mouseHelp mouse, AppDJ appDJ)
         {
             this.dog = dog;
             this.mouse = mouse;
+            this.appDJ = appDJ;
             screenHeight = 480;
             screenWidth = 800;
 
@@ -85,6 +88,8 @@ namespace PhoneBuddy
 
             playPos = false;
             inPlay = false;
+
+            oldMouse = mouse.position;
 
             targetRec = new Rectangle((int)((float)screenWidth * .47), (int)((float)screenHeight * .57), 
                                     (int)((float)screenWidth * .06), (int)((float)screenHeight * .06));
@@ -145,6 +150,8 @@ namespace PhoneBuddy
                 if (dog.dogPos.Y != playPlace.Y || dog.dogScale != playScale)
                 {
                     dog.myAnimate = Dog.animate.dogRunTowards;
+                    appDJ.runningOn = true;
+
                     if (dog.dogPos.Y <= playPlace.Y + speedY && dog.dogPos.Y >= playPlace.Y - speedY)
                     {
                         dog.dogPos.Y = playPlace.Y;
@@ -174,6 +181,7 @@ namespace PhoneBuddy
                 }
                 else
                 {
+                    appDJ.runningOn = false;
                     playPos = true;
                 }
 
@@ -189,77 +197,87 @@ namespace PhoneBuddy
 
                     if (mouse.position.X <= ((float)screenWidth * .33))
                     {
-                        dog.myAnimate = Dog.animate.dogTugLeft;
+                        if (mouse.position.Y <= ((float)screenHeight * .45))
+                        {
+
+                            dog.myAnimate = Dog.animate.dogTugLeftUp;
+                            if (oldMouse.Y > ((float)screenHeight * .45))
+                            {
+                                dog.vibrate();
+                                appDJ.playGrowl();
+                            }
+                        }
+                        else
+                        {
+                            dog.myAnimate = Dog.animate.dogTugLeftDown;
+
+                            if (oldMouse.Y <= ((float)screenHeight * .45))
+                            {
+                                dog.vibrate();
+                                appDJ.playGrowl();
+                            }
+                        }
+
+                        if (oldMouse.X > ((float)screenWidth * .33))
+                        {
+                            dog.vibrate();
+                            appDJ.playGrowl();
+                        }
 
                     }
                     else if (mouse.position.X >= ((float)screenWidth * .66))
                     {
-                        dog.myAnimate = Dog.animate.dogTugRight;
+                        if (mouse.position.Y <= ((float)screenHeight * .45))
+                        {
 
+                            dog.myAnimate = Dog.animate.dogTugRightUp;
+
+                            if (oldMouse.Y > ((float)screenHeight * .45))
+                            {
+                                dog.vibrate();
+                                appDJ.playGrowl();
+                            }
+                        }
+                        else
+                        {
+                            dog.myAnimate = Dog.animate.dogTugRightDown;
+
+                            if (oldMouse.Y <= ((float)screenHeight * .45))
+                            {
+                                dog.vibrate();
+                                appDJ.playGrowl();
+                            }
+                        }
+
+                        if (oldMouse.X < ((float)screenWidth * .66))
+                        {
+                            dog.vibrate();
+                            appDJ.playGrowl();
+                        }
 
                     }
                     else
                     {
                         dog.myAnimate = Dog.animate.dogTug;
+                        if (oldMouse.X > ((float)screenWidth * .66))
+                        {
+                            dog.vibrate();
+                            appDJ.playGrowl();
+                        }
 
+                        if (oldMouse.X < ((float)screenWidth * .33))
+                        {
+                            dog.vibrate();
+                            appDJ.playGrowl();
+                        }
 
                     }
-                    //dog.myAnimate = Dog.animate.dogTug;
-                    //int changeX = (int)mouse.position.X - (int)oldMousePoint.X;
-                    //int changeY = (int)mouse.position.Y - (int)oldMousePoint.Y;
-                    //ropePos2.X += changeX;
-                    //ropePos2.Y += changeY;
 
                     if (mouse.mState.LeftButton == ButtonState.Released)
                     {
                         restart();
                     }
 
-                    /*if (targetRec.Contains((int)ropePos2.X, (int)ropePos2.Y))
-                    {
-                        playVal += (gameSpeed * 2);
-                        tarCol = Color.Blue;
-                    }
-                    else
-                    {
-                        playVal -= gameSpeed;
-                        tarCol = Color.White;
-                    }
-
-                    if (playVal >= 1.0f)
-                    {
-                        // you won
-                        restart();
-                        dog.statEntertainment += .4f;
-                        dog.returnHome = true;
-                        dog.myActivity = Dog.activity.dogIdle;
-                    }
-                    else if (playVal <= 0.0f)
-                    {
-                        // you lost
-                        restart();
-                        dog.statEntertainment += .2f;
-                        dog.returnHome = true;
-                        dog.myActivity = Dog.activity.dogIdle;
-                    }
-
-                    twitchTime -= gameTime.ElapsedGameTime;
-
-                    if (twitchTime.Milliseconds <= 0)
-                    {
-                        
-
-                        int rX = rand.Next(-40, 40);
-                        int rY = rand.Next(-30, 30);
-                        int rT = rand.Next(500, 1000);
-
-                        ropePos2.X += rX;
-                        ropePos2.Y += rY;
-
-                        twitchTime = new TimeSpan(0, 0, 0, 0, rT);
-
-
-                    }*/
 
                     ropePos2 = mouse.position;
 
@@ -281,7 +299,7 @@ namespace PhoneBuddy
             }
 
 
-           // oldMousePoint = mouse.position;
+           oldMouse = mouse.position;
         }
 
         

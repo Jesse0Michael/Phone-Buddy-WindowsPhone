@@ -16,6 +16,7 @@ namespace PhoneBuddy
     {
         private mouseHelp mouse;
         private Dog dog;
+        private AppDJ appDJ;
 
         Texture2D pooImage;
 
@@ -41,11 +42,12 @@ namespace PhoneBuddy
         public int screenHeight;
         
 
-        public Poo(int pooNumber, ContentManager Content, mouseHelp mouse, Dog dog)
+        public Poo(int pooNumber, ContentManager Content, mouseHelp mouse, Dog dog, AppDJ appDJ)
         {
             this.pooNumber = pooNumber;
             this.mouse = mouse;
             this.dog = dog;
+            this.appDJ = appDJ;
             screenHeight = 480;
             screenWidth = 800;
 
@@ -88,8 +90,9 @@ namespace PhoneBuddy
                 {
                     dog.statHygiene += 0.3f;
                     pooPos.X = -250;
+                    appDJ.playBag();
 
-
+                    dog.vibrate();
                 }
                 else
                 {

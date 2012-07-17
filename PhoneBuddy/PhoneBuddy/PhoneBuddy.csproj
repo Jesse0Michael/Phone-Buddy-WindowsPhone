@@ -52,6 +52,8 @@
     <XnaCompressContent>false</XnaCompressContent>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Devices.Sensors, Version=7.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Phone, Version=7.0.0.0, Culture=neutral, PublicKeyToken=24eec0d8c86cda1e, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Xna.Framework" />
     <Reference Include="Microsoft.Xna.Framework.Game" />
     <Reference Include="Microsoft.Xna.Framework.Graphics" />
@@ -66,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="actionSlider.cs" />
+    <Compile Include="AppDJ.cs" />
     <Compile Include="Cloud.cs" />
     <Compile Include="Dog.cs" />
     <Compile Include="Fetch.cs" />

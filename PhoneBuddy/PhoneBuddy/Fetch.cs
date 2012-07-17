@@ -16,6 +16,7 @@ namespace PhoneBuddy
     {
         private Dog dog;
         private mouseHelp mouse;
+        private AppDJ appDJ;
 
         Texture2D ball;
         Texture2D shadow;
@@ -36,6 +37,9 @@ namespace PhoneBuddy
         public float yFactor;
         public float sFactor;
         public float shadowScale;
+        public float oldPoint;
+        public float oldOldPoint;
+        public float nowPoint;
 
         public Rectangle ballRec;
         public Rectangle touchRec;
@@ -70,10 +74,11 @@ namespace PhoneBuddy
         public ballState state;
 
         
-        public Fetch(Dog dog, mouseHelp mouse)
+        public Fetch(Dog dog, mouseHelp mouse, AppDJ appDJ)
         {
             this.dog = dog;
             this.mouse = mouse;
+            this.appDJ = appDJ;
             screenHeight = 480;
             screenWidth = 800;
 
@@ -98,6 +103,10 @@ namespace PhoneBuddy
             xFactor = 1.0f;
             yFactor = 2.0f;
             sFactor = 3.0f;
+
+            oldPoint = 0.0f;
+            oldOldPoint = 0.0f;
+            nowPoint = 0.0f;
 
             state = ballState.ballIdle;
 
@@ -243,9 +252,14 @@ namespace PhoneBuddy
 
                 ballScale = 1 / ((bounceSpeed) + 1);
 
-                if ((Math.Abs(Math.Sin(bounceSpeed))) <= .01f)
+                oldOldPoint = oldPoint;
+                oldPoint = nowPoint;
+                nowPoint = ((float)Math.Abs(Math.Sin(bounceSpeed)));
+
+                if (oldPoint < oldOldPoint && oldPoint < nowPoint)
                 {
-                    // bouncing may still need some work Jesse
+                    dog.vibrate();
+                    appDJ.playThud(1.0f - (float)(bounceCount/10));
                     Magnitude /= 2.0f;
                     bounceCount++;
                 }
@@ -317,6 +331,7 @@ namespace PhoneBuddy
             if (dog.dogPos.Y != linePos.Y || dog.dogPos.X != ballPos.X)
             {
                 dog.myAnimate = Dog.animate.dogRunAway;
+                appDJ.runningOn = true;
                 if (dog.dogPos.Y >= linePos.Y - (dog.returnSpeedY / yFactor) && dog.dogPos.Y <= linePos.Y + (dog.returnSpeedY / yFactor))
                 {
                     dog.dogPos.Y = linePos.Y;
@@ -365,6 +380,7 @@ namespace PhoneBuddy
             {
                 shadowLine.Y = -100;
                 state = ballState.ballReturning;
+                appDJ.runningOn = false;
                 
             }
 

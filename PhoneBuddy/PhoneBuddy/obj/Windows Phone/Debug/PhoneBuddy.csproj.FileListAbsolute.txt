@@ -33,12 +33,5 @@ C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phon
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\AppManifest.xaml
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\WMAppManifest.xml.g
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\WMAppManifest.xml
-bin\Windows Phone\Debug\
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\PhoneBuddy.xap
 C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\XapCacheFile.xml
-C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\PhoneBuddy.xap
-C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\XapCacheFile.xml
-C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Debug\AppManifest.xaml
-C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\WMAppManifest.xml.g
-C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Debug\WMAppManifest.xml
-bin\Windows Phone\Debug\

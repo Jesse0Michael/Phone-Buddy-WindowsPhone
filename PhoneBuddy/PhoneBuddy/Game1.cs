@@ -21,9 +21,13 @@ namespace PhoneBuddy
         private mouseHelp mouse;
         private actionSlider actionSlider;
         private Dog dog;
+        private AppDJ appDJ;
         Texture2D field;
         Texture2D pooBag;
         Texture2D splash;
+        Texture2D soundOn;
+        Texture2D soundOff;
+        Rectangle soundRec;
         bool splashBool;
         TimeSpan splashTime;
 
@@ -56,7 +60,11 @@ namespace PhoneBuddy
 
             actionSlider = new actionSlider(mouse, screenWidth, screenHeight);
 
-            dog = new Dog(mouse);
+            appDJ = new AppDJ();
+
+            dog = new Dog(mouse, appDJ);
+
+            
             
             
             
@@ -83,6 +91,8 @@ namespace PhoneBuddy
             cloudList = new List<Cloud>();
             rand = new Random();
             newCloud = new TimeSpan(0, 0, rand.Next(5, 11));
+
+            soundRec = new Rectangle(screenWidth - 50, 0, 50, 50);
 
             if (rand.Next(0, 2) == 0)
             {
@@ -113,10 +123,14 @@ namespace PhoneBuddy
             field = Content.Load<Texture2D>("Textures/field");
             pooBag = Content.Load<Texture2D>("Textures/pooBag");
             splash = Content.Load<Texture2D>("Textures/phone buddy");
+            soundOn = Content.Load<Texture2D>("Textures/soundOn");
+            soundOff = Content.Load<Texture2D>("Textures/soundOff");
 
             actionSlider.LoadContent(Content);
 
             dog.LoadContent(Content);
+
+            appDJ.LoadContent(Content);
 
         }
 
@@ -149,6 +163,7 @@ namespace PhoneBuddy
                 actionSlider.Update(gameTime);
                 dog.Update(gameTime);
                 pooControl(gameTime);
+                appDJ.Update(gameTime);
 
                 if (newCloud >= TimeSpan.Zero)
                 {
@@ -158,14 +173,17 @@ namespace PhoneBuddy
                 {
                     if (direction == true)
                     {
-                        cloudList.Add(new Cloud(rand.Next(1, 6), Content, mouse, dog, new Vector2(-150, rand.Next(0 - (int)((float)screenHeight * .15), (int)((float)screenHeight * .08))), direction));
+                        cloudList.Add(new Cloud(rand.Next(1, 6), Content, mouse, dog, new Vector2(-149, rand.Next(0 - (int)((float)screenHeight * .15), (int)((float)screenHeight * .08))), direction));
 
                     }
                     else
                     {
-                        cloudList.Add(new Cloud(rand.Next(1, 6), Content, mouse, dog, new Vector2(1050, rand.Next(0 - (int)((float)screenHeight * .15), (int)((float)screenHeight * .08))), direction));
+                        cloudList.Add(new Cloud(rand.Next(1, 6), Content, mouse, dog, new Vector2(screenWidth, rand.Next(0 - (int)((float)screenHeight * .15), (int)((float)screenHeight * .08))), direction));
 
                     }
+
+                    appDJ.playBird();
+
                     newCloud = new TimeSpan(0, 0, rand.Next(25, 60));
                 }
 
@@ -173,7 +191,7 @@ namespace PhoneBuddy
                 {
                     cloudList[i].Update(gameTime);
 
-                    if (cloudList[i].cloudPos.X <= -150.0f || cloudList[i].cloudPos.X >= screenWidth)
+                    if (cloudList[i].cloudPos.X <= -150.0f || cloudList[i].cloudPos.X > screenWidth)
                     {
                         cloudList.Remove(cloudList[i]);
 
@@ -248,6 +266,20 @@ namespace PhoneBuddy
                         dog.myActivity = Dog.activity.dogPoo;
                     }
 
+                    if (soundRec.Contains((int)mouse.position.X, (int)mouse.position.Y))
+                    {
+                        if (appDJ.volOn == true)
+                        {
+                            appDJ.volOn = false;
+                            appDJ.stopEverything();
+                        }
+                        else
+                        {
+                            appDJ.volOn = true;
+                        }
+
+                    }
+
                 }
             }
 
@@ -282,7 +314,7 @@ namespace PhoneBuddy
             if (pooCounter > pooList.Count)
             {
                 Random newRand = new Random();
-                Poo poo = new Poo(newRand.Next(1, 3), Content, mouse, dog);
+                Poo poo = new Poo(newRand.Next(1, 3), Content, mouse, dog, appDJ);
                 pooList.Add(poo);
 
             }
@@ -337,6 +369,19 @@ namespace PhoneBuddy
                 }
 
                 spriteBatch.Draw(field, new Rectangle(0, 0, screenWidth, screenHeight), new Rectangle(0, 0, field.Width, field.Height), Color.White, 0.0f, new Vector2(0, 0), SpriteEffects.None, 1.0f);
+
+                if (appDJ.volOn == true)
+                {
+                    spriteBatch.Draw(soundOn, soundRec, new Rectangle(0, 0, soundOn.Width, soundOn.Height), Color.White, 0.0f, new Vector2(0, 0), SpriteEffects.None, 0.66f);
+
+                }
+                else
+                {
+                    spriteBatch.Draw(soundOff, soundRec, new Rectangle(0, 0, soundOff.Width, soundOff.Height), Color.White, 0.0f, new Vector2(0, 0), SpriteEffects.None, 0.66f);
+
+                }
+            
+            
             }
             spriteBatch.End();
 

@@ -16,6 +16,7 @@ namespace PhoneBuddy
     {
         private Dog dog;
         private mouseHelp mouse;
+        private AppDJ appDJ;
 
         Texture2D food;
 
@@ -38,10 +39,11 @@ namespace PhoneBuddy
         public int screenWidth;
         public int screenHeight;
 
-        public Food(Dog dog, mouseHelp mouse)
+        public Food(Dog dog, mouseHelp mouse, AppDJ appDJ)
         {
             this.dog = dog;
             this.mouse = mouse;
+            this.appDJ = appDJ;
             screenHeight = 480;
             screenWidth = 800;
 
@@ -84,6 +86,8 @@ namespace PhoneBuddy
                     if (dog.dogPos.Y != eatingPos.Y || dog.dogPos.X != eatingPos.X)
                     {
                         dog.myAnimate = Dog.animate.dogRunRight;
+                        appDJ.runningOn = true;
+
                         if (dog.dogPos.Y >= eatingPos.Y - (dog.returnSpeedY / yFactor) && dog.dogPos.Y <= eatingPos.Y + (dog.returnSpeedY / yFactor))
                         {
                             dog.dogPos.Y = eatingPos.Y;
@@ -120,6 +124,7 @@ namespace PhoneBuddy
                     }
                     else
                     {
+                        appDJ.runningOn = false;
                         dog.myAnimate = Dog.animate.dogEatRight;
                         atFood = true;
                     }
@@ -135,12 +140,14 @@ namespace PhoneBuddy
             {
                 if (timeEating >= TimeSpan.Zero)
                 {
+                    appDJ.foodOn = true;
                     timeEating -= gameTime.ElapsedGameTime;
                 }
                 else
                 {
                     dog.statHunger += 0.3f;
                     restart();
+                    appDJ.foodOn = false;
                     
                     
 
@@ -156,6 +163,7 @@ namespace PhoneBuddy
             if (dog.dogPos.Y != dog.origin.Y || dog.dogPos.X != dog.origin.X || dog.dogScale < 1.0f)
             {
                 dog.myAnimate = Dog.animate.dogRunLeft;
+                appDJ.runningOn = true;
 
                 if (dog.dogPos.Y >= dog.origin.Y - (dog.returnSpeedY / yFactor) && dog.dogPos.Y <= dog.origin.Y + (dog.returnSpeedY / yFactor))
                 {
@@ -195,6 +203,7 @@ namespace PhoneBuddy
             else
             {
                 dog.myAnimate = Dog.animate.dogSitting;
+                appDJ.runningOn = false;
                 restart();
             }
 

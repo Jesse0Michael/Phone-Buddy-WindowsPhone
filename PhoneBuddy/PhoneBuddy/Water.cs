@@ -16,6 +16,7 @@ namespace PhoneBuddy
     {
         private Dog dog;
         private mouseHelp mouse;
+        private AppDJ appDJ;
 
         Texture2D water;
 
@@ -39,10 +40,11 @@ namespace PhoneBuddy
         public int screenHeight;
 
 
-        public Water(Dog dog, mouseHelp mouse)
+        public Water(Dog dog, mouseHelp mouse, AppDJ appDJ)
         {
             this.dog = dog;
             this.mouse = mouse;
+            this.appDJ = appDJ;
             screenHeight = 480;
             screenWidth = 800;
 
@@ -86,6 +88,7 @@ namespace PhoneBuddy
                     if (dog.dogPos.Y != drinkingPos.Y || dog.dogPos.X != drinkingPos.X)
                     {
                         dog.myAnimate = Dog.animate.dogRunLeft;
+                        appDJ.runningOn = true;
 
                         if (dog.dogPos.Y >= drinkingPos.Y - (dog.returnSpeedY / yFactor) && dog.dogPos.Y <= drinkingPos.Y + (dog.returnSpeedY / yFactor))
                         {
@@ -127,6 +130,7 @@ namespace PhoneBuddy
                     else
                     {
                         dog.myAnimate = Dog.animate.dogEatLeft;
+                        appDJ.runningOn = false;
                         atWater = true;
                     }
 
@@ -144,11 +148,13 @@ namespace PhoneBuddy
                 if (timeDrinking >= TimeSpan.Zero)
                 {
                     timeDrinking -= gameTime.ElapsedGameTime;
+                    appDJ.drinkOn = true;
                 }
                 else
                 {
                     dog.statThirst += 0.3f;
                     restart();
+                    appDJ.drinkOn = false;
 
                 }
 
@@ -161,6 +167,8 @@ namespace PhoneBuddy
             if (dog.dogPos.Y != dog.origin.Y || dog.dogPos.X != dog.origin.X || dog.dogScale < 1.0f)
             {
                 dog.myAnimate = Dog.animate.dogRunRight;
+                appDJ.runningOn = true;
+
                 if (dog.dogPos.Y >= dog.origin.Y - (dog.returnSpeedY / yFactor) && dog.dogPos.Y <= dog.origin.Y + (dog.returnSpeedY / yFactor))
                 {
                     dog.dogPos.Y = dog.origin.Y;
@@ -200,6 +208,7 @@ namespace PhoneBuddy
             {
                 dog.myAnimate = Dog.animate.dogSitting;
                 restart();
+                appDJ.runningOn = false;
             }
 
         }

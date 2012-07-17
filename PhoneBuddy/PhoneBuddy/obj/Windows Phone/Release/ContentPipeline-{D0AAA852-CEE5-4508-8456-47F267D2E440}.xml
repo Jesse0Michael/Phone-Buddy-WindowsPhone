@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\phone buddy.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\phone buddy.xnb</Output>
       <Time>2012-05-07T16:57:18.1505223-07:00</Time>
     </Item>
     <Item>
@@ -16,7 +16,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actFetch.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actFetch.xnb</Output>
       <Time>2012-04-29T20:47:01.5624269-07:00</Time>
     </Item>
     <Item>
@@ -25,7 +25,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actFood.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actFood.xnb</Output>
       <Time>2012-04-29T20:47:01.5844282-07:00</Time>
     </Item>
     <Item>
@@ -34,7 +34,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actPoo.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actPoo.xnb</Output>
       <Time>2012-04-29T20:47:01.61643-07:00</Time>
     </Item>
     <Item>
@@ -43,7 +43,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actPoo1.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actPoo1.xnb</Output>
       <Time>2012-04-29T20:47:01.6474318-07:00</Time>
     </Item>
     <Item>
@@ -52,7 +52,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actPoo2.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actPoo2.xnb</Output>
       <Time>2012-04-29T20:47:01.6824338-07:00</Time>
     </Item>
     <Item>
@@ -61,7 +61,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actTreat.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actTreat.xnb</Output>
       <Time>2012-04-29T20:47:01.7544379-07:00</Time>
     </Item>
     <Item>
@@ -70,7 +70,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actTug.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actTug.xnb</Output>
       <Time>2012-04-29T20:47:01.8674444-07:00</Time>
     </Item>
     <Item>
@@ -79,7 +79,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actWater.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\actWater.xnb</Output>
       <Time>2012-04-29T20:47:01.8934459-07:00</Time>
     </Item>
     <Item>
@@ -88,7 +88,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\ballShadow.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\ballShadow.xnb</Output>
       <Time>2012-04-29T20:47:01.930448-07:00</Time>
     </Item>
     <Item>
@@ -97,7 +97,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\cloud1.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\cloud1.xnb</Output>
       <Time>2012-04-29T20:47:01.96545-07:00</Time>
     </Item>
     <Item>
@@ -106,7 +106,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\cloud2.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\cloud2.xnb</Output>
       <Time>2012-04-29T20:47:02.0234533-07:00</Time>
     </Item>
     <Item>
@@ -115,7 +115,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\cloud3.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\cloud3.xnb</Output>
       <Time>2012-04-29T20:47:01.2354082-07:00</Time>
     </Item>
     <Item>
@@ -124,7 +124,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\cloud4.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\cloud4.xnb</Output>
       <Time>2012-04-29T20:47:01.3084124-07:00</Time>
     </Item>
     <Item>
@@ -133,7 +133,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\cloud5.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\cloud5.xnb</Output>
       <Time>2012-04-29T20:47:01.3254134-07:00</Time>
     </Item>
     <Item>
@@ -142,7 +142,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\dogSitting.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\dogSitting.xnb</Output>
       <Time>2012-04-29T20:47:01.3794165-07:00</Time>
     </Item>
     <Item>
@@ -151,7 +151,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\field.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\field.xnb</Output>
       <Time>2012-04-29T20:47:01.4214189-07:00</Time>
     </Item>
     <Item>
@@ -160,7 +160,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\pooBag.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\pooBag.xnb</Output>
       <Time>2012-04-29T20:47:01.4534207-07:00</Time>
     </Item>
     <Item>
@@ -169,7 +169,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\slider.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\slider.xnb</Output>
       <Time>2012-04-29T20:47:01.4994233-07:00</Time>
     </Item>
     <Item>
@@ -178,7 +178,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\sliderPull.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\sliderPull.xnb</Output>
       <Time>2012-04-29T20:47:01.5364254-07:00</Time>
     </Item>
     <Item>
@@ -187,8 +187,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\dogSheet.xnb</Output>
-      <Time>2012-05-22T15:06:51.4231792-07:00</Time>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\dogSheet.xnb</Output>
+      <Time>2012-07-04T09:37:35.7222421-07:00</Time>
     </Item>
     <Item>
       <Source>Textures\testr.png</Source>
@@ -196,7 +196,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\testr.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\testr.xnb</Output>
       <Time>2012-05-18T12:14:01.4147902-07:00</Time>
     </Item>
     <Item>
@@ -205,7 +205,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\rope.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\rope.xnb</Output>
       <Time>2012-05-18T15:58:41.9501627-07:00</Time>
     </Item>
     <Item>
@@ -214,7 +214,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\rope60.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\rope60.xnb</Output>
       <Time>2012-05-18T15:58:44.0422824-07:00</Time>
     </Item>
     <Item>
@@ -223,7 +223,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\barPhone.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\barPhone.xnb</Output>
       <Time>2012-05-19T13:52:39.9706938-07:00</Time>
     </Item>
     <Item>
@@ -232,8 +232,35 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\tugBar.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\tugBar.xnb</Output>
       <Time>2012-05-19T16:33:08.1187607-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\tugSheet.png</Source>
+      <Name>Textures\tugSheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\tugSheet.xnb</Output>
+      <Time>2012-07-04T10:58:53.034421-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\soundOff.png</Source>
+      <Name>Textures\soundOff</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\soundOff.xnb</Output>
+      <Time>2012-07-16T15:21:19.158653-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Textures\soundOn.png</Source>
+      <Name>Textures\soundOn</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Textures\soundOn.xnb</Output>
+      <Time>2012-07-16T15:21:19.1806543-07:00</Time>
     </Item>
     <Item>
       <Source>SpriteFont.spritefont</Source>
@@ -241,8 +268,170 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\SpriteFont.xnb</Output>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\SpriteFont.xnb</Output>
       <Time>2012-05-19T13:20:29.7112893-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\bag.wav</Source>
+      <Name>Sounds\bag</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\bag.xnb</Output>
+      <Time>2012-07-16T17:53:12.9799338-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\bark1.wav</Source>
+      <Name>Sounds\bark1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\bark1.xnb</Output>
+      <Time>2012-07-16T17:53:12.9889343-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\bark2.wav</Source>
+      <Name>Sounds\bark2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\bark2.xnb</Output>
+      <Time>2012-07-16T17:53:12.7079182-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\bark3.wav</Source>
+      <Name>Sounds\bark3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\bark3.xnb</Output>
+      <Time>2012-07-16T17:53:12.720919-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\bark4.wav</Source>
+      <Name>Sounds\bark4</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\bark4.xnb</Output>
+      <Time>2012-07-16T17:53:12.7349198-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\bark5.wav</Source>
+      <Name>Sounds\bark5</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\bark5.xnb</Output>
+      <Time>2012-07-16T17:53:12.7489206-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\bird1.wav</Source>
+      <Name>Sounds\bird1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\bird1.xnb</Output>
+      <Time>2012-07-16T17:53:12.7949232-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\bird2.wav</Source>
+      <Name>Sounds\bird2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\bird2.xnb</Output>
+      <Time>2012-07-16T17:53:12.8109241-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\bird3.wav</Source>
+      <Name>Sounds\bird3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\bird3.xnb</Output>
+      <Time>2012-07-16T17:53:12.8219247-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\bird4.wav</Source>
+      <Name>Sounds\bird4</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\bird4.xnb</Output>
+      <Time>2012-07-16T17:53:12.8339254-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\bird5.wav</Source>
+      <Name>Sounds\bird5</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\bird5.xnb</Output>
+      <Time>2012-07-16T17:53:12.8499263-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\drink.wav</Source>
+      <Name>Sounds\drink</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\drink.xnb</Output>
+      <Time>2012-07-16T17:53:12.8659273-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\food.wav</Source>
+      <Name>Sounds\food</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\food.xnb</Output>
+      <Time>2012-07-16T17:53:12.8839283-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\growl1.wav</Source>
+      <Name>Sounds\growl1</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\growl1.xnb</Output>
+      <Time>2012-07-16T17:53:12.895929-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\growl2.wav</Source>
+      <Name>Sounds\growl2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\growl2.xnb</Output>
+      <Time>2012-07-16T17:53:12.9169302-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\growl3.wav</Source>
+      <Name>Sounds\growl3</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\growl3.xnb</Output>
+      <Time>2012-07-16T17:53:12.9329311-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\growl4.wav</Source>
+      <Name>Sounds\growl4</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\growl4.xnb</Output>
+      <Time>2012-07-16T17:53:12.9499321-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\thud.wav</Source>
+      <Name>Sounds\thud</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\Sounds\thud.xnb</Output>
+      <Time>2012-07-16T17:53:12.966933-07:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -251,10 +440,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Release</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddyContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Release\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Jesse Michael\Desktop\PhoneBuddy\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddyContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\obj\Windows Phone\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jesse Michael\Documents\GitHub\Phone-Buddy-WindowsPhone\PhoneBuddy\PhoneBuddy\bin\Windows Phone\Release\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

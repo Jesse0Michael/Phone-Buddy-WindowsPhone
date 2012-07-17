@@ -9,6 +9,7 @@ using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using Microsoft.Devices;
 
 namespace PhoneBuddy 
 {
@@ -21,6 +22,7 @@ namespace PhoneBuddy
         
 
         private mouseHelp mouse;
+        private AppDJ appDJ;
 
         public float statHunger;
         public float statHygiene;
@@ -29,6 +31,7 @@ namespace PhoneBuddy
         public float statHappiness;
 
         public Texture2D dogContainer;
+        public Texture2D tugContainer;
 
         public Rectangle dogRec;
 
@@ -72,9 +75,10 @@ namespace PhoneBuddy
             dogEatRight,      //5
             dogEatLeft,       //6
             dogTug,           //7
-            dogTugRight,      //8
-            dogTugLeft        //9
-
+            dogTugRightUp,    //8
+            dogTugLeftUp,     //9
+            dogTugRightDown,  //10
+            dogTugLeftDown    //11
         };
 
         public activity myActivity;
@@ -85,16 +89,17 @@ namespace PhoneBuddy
         public int aniY;
         public bool tugBool;
 
-        public Dog(mouseHelp mouse)
+        public Dog(mouseHelp mouse, AppDJ appDJ)
         {
+            this.appDJ = appDJ;
             this.mouse = mouse;
             screenHeight = 480;
             screenWidth = 800;
 
-            fetch = new Fetch(this, this.mouse);
-            water = new Water(this, this.mouse);
-            food = new Food(this, this.mouse);
-            tug = new Tug(this, this.mouse);
+            fetch = new Fetch(this, this.mouse, this.appDJ);
+            water = new Water(this, this.mouse, this.appDJ);
+            food = new Food(this, this.mouse, this.appDJ);
+            tug = new Tug(this, this.mouse, this.appDJ);
 
             statThirst = 1.0f;
             statHygiene = 1.0f;
@@ -129,6 +134,7 @@ namespace PhoneBuddy
         {
 
             dogContainer = Content.Load<Texture2D>("Textures/dogSheet");
+            tugContainer = Content.Load<Texture2D>("Textures/tugSheet");
             fetch.LoadContent(Content);
             water.LoadContent(Content);
             food.LoadContent(Content);
@@ -221,8 +227,12 @@ namespace PhoneBuddy
             // This will have the dog return to the start position if called.
             if (returnHome == true)
             {
+                appDJ.drinkOn = false;
+                appDJ.foodOn = false;
+
                 if (dogPos.X != origin.X || dogPos.Y != origin.Y || dogScale != 1.0)
                 {
+                    appDJ.runningOn = true;
                     if (dogPos.X <= origin.X + returnSpeedX && dogPos.X >= origin.X - returnSpeedX)
                     {
                         dogPos.X = origin.X;
@@ -278,6 +288,7 @@ namespace PhoneBuddy
                 }
                 else
                 {
+                    appDJ.runningOn = false;
                     returnHome = false;
                     tugBool = false;
                 }
@@ -349,19 +360,38 @@ namespace PhoneBuddy
                     break;
 
                 case Dog.animate.dogTug:
-                    aniY = 1200;
-                    spriteBatch.Draw(dogContainer, dogPos, dogRec, Color.White, dogRot, new Vector2(100, 100), dogScale, SpriteEffects.None, dogZ);
+                    aniY = 0;
+                    spriteBatch.Draw(tugContainer, dogPos, dogRec, Color.White, dogRot, new Vector2(100, 100), dogScale, SpriteEffects.None, dogZ);
                     break;
 
-                case Dog.animate.dogTugRight:
-                    aniY = 1400;
-                    spriteBatch.Draw(dogContainer, dogPos, dogRec, Color.White, dogRot, new Vector2(100, 100), dogScale, SpriteEffects.None, dogZ);
+                case Dog.animate.dogTugRightUp:
+                    aniY = 200;
+                    spriteBatch.Draw(tugContainer, dogPos, dogRec, Color.White, dogRot, new Vector2(100, 100), dogScale, SpriteEffects.None, dogZ);
                     break;
 
-                case Dog.animate.dogTugLeft:
-                    aniY = 1600;
-                    spriteBatch.Draw(dogContainer, dogPos, dogRec, Color.White, dogRot, new Vector2(100, 100), dogScale, SpriteEffects.None, dogZ);
+                case Dog.animate.dogTugLeftUp:
+                    aniY = 400;
+                    spriteBatch.Draw(tugContainer, dogPos, dogRec, Color.White, dogRot, new Vector2(100, 100), dogScale, SpriteEffects.None, dogZ);
                     break;
+
+                case Dog.animate.dogTugRightDown:
+                    aniY = 600;
+                    spriteBatch.Draw(tugContainer, dogPos, dogRec, Color.White, dogRot, new Vector2(100, 100), dogScale, SpriteEffects.None, dogZ);
+                    break;
+
+                case Dog.animate.dogTugLeftDown:
+                    aniY = 800;
+                    spriteBatch.Draw(tugContainer, dogPos, dogRec, Color.White, dogRot, new Vector2(100, 100), dogScale, SpriteEffects.None, dogZ);
+                    break;
+            }
+        }
+
+        public void vibrate()
+        {
+            if (appDJ.volOn)
+            {
+                VibrateController myVibrate = VibrateController.Default;
+                myVibrate.Start(new TimeSpan(0, 0, 0, 0, 100));
             }
         }
     }
